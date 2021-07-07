@@ -5,7 +5,7 @@ questions:
 - variable: harborAdminPassword
   required: true
   default: "admin"
-  description: "The initial password of Harbor admin. Change it from portal after launching Harbor"
+  description: "xxxxxx"
   type: password
   label: The Initial Password of Harbor Admin
   group: "Global Options"
