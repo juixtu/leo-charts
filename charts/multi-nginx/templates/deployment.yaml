@@ -12,7 +12,7 @@ spec:
       labels:
         {{ .Values.labels.key}}: {{ .Values.labels.value }}
   template:
-    matedata:
+    metadata:
       labels:
         {{ .Values.labels.key}}: {{ .Values.labels.value }}
     spec:
