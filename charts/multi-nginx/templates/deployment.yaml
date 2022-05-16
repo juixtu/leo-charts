@@ -9,12 +9,11 @@ spec:
   replicas: {{ .Values.replicas }}
   selector:
     matchLabels:
-      labels:
-        {{ .Values.labels.key}}: {{ .Values.labels.value }}
+      {{ .Values.labels.key}}: {{ .Values.labels.value }}
   template:
     metadata:
       labels:
-        app: nginxs
+        {{ .Values.labels.key}}: {{ .Values.labels.value }}
     spec:
       containers:
       - name: {{ .Values.container.name }}
