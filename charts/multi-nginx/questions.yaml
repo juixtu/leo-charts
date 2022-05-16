@@ -1,0 +1,30 @@
+categories:
+  - APP
+
+questions:
+
+- variable: replicas
+  required: true
+  default: 1
+  description: "副本数"
+  type: string
+  label: Replicas
+  group: "自定义设置"
+
+
+- variable: image
+  required: true
+  default: "请填写镜像名称"
+  description: "运行的应用镜像"
+  type: string
+  label: Image
+  group: "自定义设置"
+
+
+- variable: image
+  required: true
+  default: "30088"
+  description: "nodeport暴露端口"
+  type: string
+  label: NodePort
+  group: "自定义设置"

@@ -1,0 +1,10 @@
+apiVersion: v2
+appVersion: 1.0.0
+description: App for nginx
+keywords:
+- mulitu-cluster-app
+maintainers:
+- email: jiaying.tu@suse.com
+  name: JiaYing Tu
+name: nginx
+version: 0.1.0

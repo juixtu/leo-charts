@@ -1,0 +1,18 @@
+# Default values for demo.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+image: harbor.k8s.mpd/demo/box:v1
+
+namespace: default
+
+replicas: 1
+
+container:
+  name: nginx
+
+labels:
+  key: app
+  value: nginx
+
+nodeport: 30888
