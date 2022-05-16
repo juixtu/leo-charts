@@ -14,7 +14,7 @@ spec:
   template:
     metadata:
       labels:
-        {{ .Values.labels.key}}: {{ .Values.labels.value }}
+        app: nginxs
     spec:
       containers:
       - name: {{ .Values.container.name }}
